@@ -1,0 +1,184 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  max-width: 1150px;;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'PT Sans';
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: initial;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navInput{
+  width: 20%;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #A8D1E7;
+  background: url(/assets/js/components/header/img/Group.svg) no-repeat right;
+  padding-left: 20px;
+}
+
+.navCall{
+  display: flex;
+  flex-direction: column;
+}
+
+.navLabel{
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.navLabelOver{
+  font-weight: 700;
+  font-size: 22px;
+  color: #384685;
+}
+
+.navCallButton{
+  padding: 5px;
+  color: #000000;
+  background-color: inherit;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+.navCallButtonOver{
+  padding: 5px;
+  color: #ffffff;
+  background-color: #384685;
+  border: none;
+  border-radius: 5px;
+}
+
+.navUl{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navUl>li>a{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.productCards{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.productCard{
+  position: relative;
+  margin-top: 30px;
+  overflow: hidden;
+  font-size: 18px;
+  box-shadow: 1px 1px 10px 1px #0000000D;
+}
+
+.cardLabel{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 15px;
+  left: 25px;
+}
+
+.saleLabel{
+  background-image: url(/assets/js/components/catalog/img/sale.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: white;
+  height: 30px;
+  width: 70px;
+}
+
+.saleLabelSpan{
+  padding-top: 5px;
+}
+
+.hitLabel{
+  margin-left: 5px;
+  padding: 7px 15px;
+  border-radius: 5px;
+  width: 63px;
+  height: 30px;
+  background: #0E9F2E;
+  color: white;
+}
+
+.cardImg{
+  padding: 25px 35px 20px 35px;
+  object-fit: cover;
+  object-position: center;
+  max-width: 250px;
+  min-height: 215px;
+}
+
+.oldPrice{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  text-decoration-line: line-through;
+  color: #BDBDBD;
+}
+
+.newPrice{
+  margin-left: 12px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 32px;
+}
+
+.cardPrice{
+  border-top: 1px solid #E2E2E2;
+  border-bottom: 1px solid #E2E2E2;
+  margin: 0px 35px 0px 35px;
+  padding: 12px 0 12px;
+}
+
+.buttDiv{
+  display: flex;
+  align-items: center;
+}
+
+.cardButton{
+  background-color: inherit;
+  border: 1px solid #384685;
+  border-radius: 5px;
+
+  font-weight: 700;
+  font-size: 20px;
+  margin: 20px 10px 20px 35px;
+  padding: 14px 40px;
+}
+
+.butOver{
+  background: #384685;
+  color: white;
+  border: 1px solid #384685;
+  border-radius: 5px;
+
+  font-weight: 700;
+  font-size: 20px;
+  margin: 20px 10px 20px 35px;
+  padding: 14px 40px;
+
+}
+
